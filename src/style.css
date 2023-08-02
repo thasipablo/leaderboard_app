@@ -33,7 +33,6 @@ input {
   width: 625px;
   margin: 0 auto;
   margin-top: 10rem;
-  border: 1px solid var(--neutral-100);
 }
 
 .scores-container {

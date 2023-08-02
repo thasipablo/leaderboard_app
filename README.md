@@ -99,7 +99,7 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author 1**
+👤 **Pablo Thasi**
 
 - GitHub: [@thasipablo](https://github.com/thasipablo)
 - Twitter: [@thasipablo_](https://twitter.com/thasipablo_)
