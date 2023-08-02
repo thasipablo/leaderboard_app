@@ -1,0 +1,41 @@
+
+  <!-- <div>
+    <input type="text" id="task-input" placeholder="Enter task description">
+    <button id="add-task-btn">Add Task</button>
+  </div> -->
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+  <main>
+    <div class="container">
+      <h1 class="main-title">Leaderboard</h1>
+      <div class="scores-container">
+        <div class="scores-list-container">
+          <h2 class="scores-title">
+            <span>Recent Scores</span>
+            <button>Refresh</button>
+          </h2>
+          <ul class="scores-list">
+            <li class="score-item">Name: 30</li>
+            <li class="score-item">Name: 30</li>
+            <li class="score-item">Name: 30</li>
+            <li class="score-item">Name: 30</li>
+          </ul>
+        </div>
+        <form class="form">
+          <h2>Add your score</h2>
+          <p><input type="text" placeholder="Your name"></p>
+          <p><input type="number" placeholder="Your score"></p>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
