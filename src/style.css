@@ -45,7 +45,8 @@ input {
   border: 1px solid var(--neutral-200);
 }
 
-.score-item {
+.score-item,
+.warning {
   padding: 0.5rem 1rem;
 }
 
