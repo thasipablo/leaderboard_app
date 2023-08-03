@@ -11,10 +11,9 @@
 
 body {
   scroll-behavior: smooth;
-  color: var(--neutral-200);
-  font-family: 'Open Sans',sans-serif;
-  margin: 0;
   color: #394853;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
 }
 
 ul {
