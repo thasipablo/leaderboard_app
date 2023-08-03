@@ -1,12 +1,13 @@
-const scores = JSON.parse(localStorage.getItem('scores')) || [];
+const addScore = async (url, score) => {
+  const response = await fetch(url, {
+    method: 'POST',
+    body: JSON.stringify(score),
+    headers: {
+      'Content-type': 'application/json; charset=UTF-8',
+    },
+  });
 
-const saveScore = () => {
-  localStorage.setItem('scores', JSON.stringify(scores));
+  return response;
 };
 
-const addScore = (score) => {
-  scores.push(score);
-  saveScore();
-};
-
-export { scores, addScore };
+export default addScore;
